@@ -1,0 +1,38 @@
+HOMEPAGE
+========
+
+https://github.com/seenxu/twitter-filter
+
+HOW TO USE
+==========
+
+Go to menu, Tools -> Add-ons -> User Scripts -> find tweet-filter,
+right click to edit, fill in any text snippets in filters, when they appear in
+a tweet, the tweet will be hidden from your timeline, there are
+already two examples, which will hide tweets from instagram and foursquare.
+
+**Remember to backup your text snippets, in case you lost it.**
+
+OPTIONS
+=======
+
+the following options are under consideration to be included in the up coming
+releases.
+
+is_reply_not_metioned_me:
+tweet is an at reply, and it has more than two receivers, in which there
+is no my username.
+
+is_reply_mentioned_stranger:
+tweet is an at reply, in which there is username not on my following list.
+
+has_too_many_hashtags:
+there are more than two hashtags in tweet body.
+
+mute_users:
+mute a list of users, who are on my following list.
+
+COMPATIBILITY
+=============
+
+Tested only on Linux with latest Firefox

@@ -66,7 +66,7 @@ var TwitterFilter = {
         }
 
         text = texts.join("");
-        return text;
+        return text.toLowerCase();
     },
 
     is_hide_tweet: function(text) {
